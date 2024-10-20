@@ -1,0 +1,133 @@
+
+.product-ullist{
+    list-style: none;
+    margin-left: 40px;
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    margin-left: 70px;
+}
+
+.product-image-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    border: 1px solid #838383;
+}
+
+.wishlist{
+    align-self: flex-end;
+}
+
+.product-button{
+     background-color: #165315;
+     color: #fff;
+     width: 100%;
+     text-align: center;
+     margin-top: 10px;
+     padding: 6px;
+}
+
+.product-box{
+    margin: 20px 40px;
+}
+
+.product-image{
+    width:200px;
+}
+
+.bttn{
+    height: 30px;
+    color: #165315;
+    background-color: transparent;
+}
+.green{
+    background-color: #165315;
+    color: #fff;
+    border: none;
+
+}
+
+.product-details{
+    margin-top: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.flex img{
+    margin-right: 8px;
+}
+
+.product-details p{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+color: #838383;
+}
+
+.span{
+    font-family: Poppins;
+  font-size: 20px;
+   font-weight: 600;
+    line-height: 30px;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+.price{
+    text-decoration: line-through;
+}
+.buy-section button{
+    margin-right:10px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background:transparent;
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.close-modal {
+    position: absolute;
+    right: 10px;
+    padding: 5px 7px;
+}

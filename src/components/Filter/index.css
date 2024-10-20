@@ -1,0 +1,15 @@
+.filter-list{
+    list-style: none;
+    width: 18%;
+    margin-top: 40px;
+    background-color: #F0FFE5;
+    padding: 10px;
+    height: 510px;
+}
+
+.filter-option{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid ;
+    padding: 10px;
+}
